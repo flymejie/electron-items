@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <script src="/javascripts/socket.io.js"></script>
+</head>
+<body>
+<header class="header_box">
+    <ul class="header_list">
+        <li class="header_list_item" id="exit">
+            <img src="/images/header/c.png" alt="">
+        </li>
+    </ul>
+</header>
+
+<div class="home_box" id="Hbox">
+    <div class="home_title">
+        <img src="/images/home/title.png" alt="">
+    </div>
+    <ul class="home_list">
+        <li class="h_list_item">
+            <img src="/images/home/a.png" alt="产品体系" data-src="/images/home/a.png" data-type="product">
+        </li>
+        <li class="h_list_item">
+            <img src="/images/home/b.png" alt="解决方案" data-src="/images/home/b.png" data-type="plan">
+        </li>
+        <li class="h_list_desc">
+            <p>
+                The low altitsude early warning radar is <br>
+                endowedwith capability to identify small<br>
+                aerial target in strong ground clutter<br>
+            </p>
+        </li>
+        <li class="h_list_desc">
+            <p>
+                The low altitsude early warning radar is <br>
+                endowedwith capability to identify small<br>
+                aerial target in strong ground clutter<br>
+            </p>
+        </li>
+    </ul>
+</div>
+
+<script src="/javascripts/show/head.js"></script>
+<script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/show/home.js"></script>
+</body>
+</html>

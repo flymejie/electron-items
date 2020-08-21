@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title><%= title %></title>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+<div class="planlist_box">
+    <div class="cptx_head">
+        <i class="cptx_head_text "><%= proListJson.title %> </i>
+    </div>
+    <ul class="planlist_show">
+        <li class="planlist_show_img">
+            <img src="<%= proListJson.rightImg %>" alt="">
+        </li>
+        <li class="planlist_show_video">
+            <video id="plan_video" src="<%= proListJson.rightVideo %>" loop controls></video>
+        </li>
+        <li class="plan_video_btn">
+            <img src="/images/product/play.png" alt="">
+        </li>
+    </ul>
+</div>
+<script src="/javascripts/socket.io.js"></script>
+<script src="/javascripts/socket.js"></script>
+<script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/action/plan.js"></script>
+</body>
+</html>

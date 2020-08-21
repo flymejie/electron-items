@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+<%- include("./header.ejs") %>
+<div class="cate_box">
+    <div class="cate_left show_hide_list">
+        <div class="left_top">
+            <img src="<%= leftTopImg[1].cateLeftTop %>" alt="">
+        </div>
+        <ul class="cate_list">
+            <% for(let i = 0;i < proListJson.length;i++){ %>
+                <li class="list_item" data-name="<%= proListJson[i].title %>" data-index="<%= [i] %>"
+                    data-type="<%= proType %>">
+                    <div  class="plan_list_item" data-name="<%= proListJson[i].title %>"  data-type="<%= proType %>" data-index="<%= [i] %>">
+                        <p><%= proListJson[i].title %></p>
+                    </div>
+                </li>
+            <% } %>
+        </ul>
+    </div>
+
+    <div class="cate_con show_cate_left show_cate_con">
+        <div class="cate_item">
+            <iframe src="" frameborder="0" id="iframes" class="cate_iframe">
+            </iframe>
+        </div>
+    </div>
+</div>
+</body>
+<script src="/javascripts/socket.io.js"></script>
+<script src="/javascripts/socket.js"></script>
+<script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/show/product.js"></script>
+<script src="/javascripts/show/head.js"></script>
+
+</html>

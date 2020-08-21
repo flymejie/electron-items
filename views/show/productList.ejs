@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+<div class="product_list_show">
+    <div class="cptx_head">
+        <i class="cptx_head_text"></i>
+    </div>
+    <div class="list_show_con">
+        <ul class="item_con" id="item_con">
+            <% proListJson.proList.forEach(function(item, index){ %>
+                <li class="item_con_list" data-index="<%= index %>" data-router="<%= proRouter %>">
+                    <img src="<%= item.proImg %>" alt="">
+                    <p class="item_con_name">
+                        <%= item.proTitle %>
+                    </p>
+                </li>
+            <% }) %>
+        </ul>
+    </div>
+</div>
+<script src="/javascripts/socket.io.js"></script>
+<script src="/javascripts/socket.js"></script>
+<script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/show/productList.js"></script>
+</body>
+</html>

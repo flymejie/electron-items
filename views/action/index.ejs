@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <script src="/javascripts/socket.io.js"></script>
+</head>
+<body>
+<div class="vide_box" id="Vbox">
+    <div class="vide_head">
+        <h3></h3>
+        <img src="/images/vide/vhead.png" alt="">
+    </div>
+    <video src="/video/4.mp4" autoplay loop></video>
+
+    <ul class="vide_list">
+        <li class="vide_btn vide_ch vide_lan">
+            <img src="/images/vide/ch_a.png" alt="" data-src="/images/vide/ch.png" class="vide_img" data-type="0">
+        </li>
+        <li class="vide_btn vide_en vide_lan">
+            <img src="/images/vide/en.png" alt="" data-src="/images/vide/en.png" class="vide_img" data-type="1">
+        </li>
+        <li class="vide_btn vide_in">
+            <img src="/images/vide/in.png" data-src="/images/vide/in.png" alt="" data-type="in">
+        </li>
+    </ul>
+</div>
+</body>
+<script src="/javascripts/socket.js"></script>
+<script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/action/action.js"></script>
+</html>

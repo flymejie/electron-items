@@ -1,0 +1,589 @@
+[
+  {
+    "type": "ch",
+    "title": [
+      {
+        "title": "指挥通信产品体系",
+        "titleImg": "/images/product/pt.png",
+        "cateLeftTop": "/images/product/lefttop.png"
+      },
+      {
+        "title": "指挥通信解决方案",
+        "titleImg": "/images/plan/pt.png",
+        "cateLeftTop": "/images/plan/lefttop.png"
+      }
+    ],
+    "product": [
+      {
+        "title": "战术通信",
+        "titleImg": "/images/cate/a.png",
+        "rightImg": "/images/product/zstx/zstx.png",
+        "rightVideo": "/video/4.mp4",
+        "list": [
+          {
+            "listTitle": "超短波VHF/UHF电台",
+            "listImg": "/images/product/a_a.png",
+            "proList": [
+              {
+                "proTitle": "CB6型车载式短波电台",
+                "proImg": "/images/product/zstx/CB6-CZS/CB6-CZS.png",
+                "isModel": true,
+                "model": [
+                  {
+                    "models": "/model/3050/vrc3050.obj",
+                    "material": "/model/3050/vrc3050.mtl",
+                    "map": "/model/3050/vrc3050.jpg"
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/zstx/a.png",
+                  "/images/product/zstx/b.png",
+                  "/images/product/zstx/c.png"
+                ]
+              },
+              {
+                "proTitle": "车载式VHF电台",
+                "proImg": "/images/product/zstx/VHF-CZS/VHF-CZS.png",
+                "isModel": true,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/zstx/a.png",
+                  "/images/product/zstx/b.png",
+                  "/images/product/zstx/c.png"
+                ]
+              },
+              {
+                "proTitle": "背负式VHF电台",
+                "proImg": "/images/product/zstx/VHF-BFS/VHF-BFS.png",
+                "isModel": true,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/zstx/a.png",
+                  "/images/product/zstx/b.png",
+                  "/images/product/zstx/c.png"
+                ]
+              },
+              {
+                "proTitle": "手持式VHF电台",
+                "proImg": "/images/product/zstx/VHF-SCS/VHF-SCS.png",
+                "isModel": true,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/zstx/a.png",
+                  "/images/product/zstx/b.png",
+                  "/images/product/zstx/c.png"
+                ]
+              },
+              {
+                "proTitle": "VRC-3050型多波段软件无线电电台",
+                "proImg": "/images/product/zstx/VRC-3050/VRC-3050.png",
+                "isModel": true,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/zstx/a.png",
+                  "/images/product/zstx/b.png",
+                  "/images/product/zstx/c.png"
+                ]
+              },
+              {
+                "proTitle": "短波20W背负式电台",
+                "proImg": "/images/product/zstx/DB20W-BFS/DB20W-BFS.png",
+                "isModel": true,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/zstx/a.png",
+                  "/images/product/zstx/b.png",
+                  "/images/product/zstx/c.png"
+                ]
+              },
+              {
+                "proTitle": "便携式一体化应急通信指挥箱",
+                "proImg": "/images/product/zstx/BXSZHX/BXSZHX.png",
+                "isModel": true,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/zstx/a.png",
+                  "/images/product/zstx/b.png",
+                  "/images/product/zstx/c.png"
+                ]
+              },
+              {
+                "proTitle": "背负式宽带自组网设备",
+                "proImg": "/images/product/zstx/BFS-ZZW/BFS-ZZW.png",
+                "isModel": true,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/zstx/a.png",
+                  "/images/product/zstx/b.png",
+                  "/images/product/zstx/c.png"
+                ]
+              },
+              {
+                "proTitle": "背负式窄带集群基站",
+                "proImg": "/images/product/zstx/BFS-ZDJZ/BFS-ZDJZ.png",
+                "isModel": true,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/zstx/a.png",
+                  "/images/product/zstx/b.png",
+                  "/images/product/zstx/c.png"
+                ]
+              },
+              {
+                "proTitle": "宽带LTE快速部署集群基站",
+                "proImg": "/images/product/zstx/LTE-JZ/LTE-JZ.png",
+                "isModel": true,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/zstx/a.png",
+                  "/images/product/zstx/b.png",
+                  "/images/product/zstx/c.png"
+                ]
+              },
+              {
+                "proTitle": "PR9560型手持式超短破电台",
+                "proImg": "/images/product/zstx/PR9560-SCS/PR9560-SCS.png",
+                "isModel": true,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/zstx/a.png",
+                  "/images/product/zstx/b.png",
+                  "/images/product/zstx/c.png"
+                ]
+              },
+              {
+                "proTitle": "短波20W背负式电台",
+                "proImg": "/images/product/zstx/DB20-BFS/DB20-BFS.png",
+                "isModel": true,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/zstx/a.png",
+                  "/images/product/zstx/b.png",
+                  "/images/product/zstx/c.png"
+                ]
+              }
+            ]
+          },
+          {
+            "listTitle": "新型多频段/超视距电台",
+            "listImg": "/images/product/a_b.png",
+            "proList": [
+              {
+                "proTitle": "车载式VHF电台",
+                "isModel": true,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                ]
+              }
+            ]
+          },
+          {
+            "listTitle": "升空中继",
+            "listImg": "/images/product/a_c.png",
+            "proList": [
+              {
+                "proTitle": "车载式VHF电台",
+                "isModel": true,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "远程广域通信",
+        "titleImg": "/images/cate/b.png",
+        "rightImg": "/images/product/zstx/zstx.png",
+        "rightVideo": "/video/4.mp4",
+        "list": [
+          {
+            "listTitle": "超短波VHF/UHF电台",
+            "listImg": "/images/product/a_a.png",
+            "proList": [
+              {
+                "proTitle": "车载式VHF电台",
+                "isModel": true,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                ]
+              }
+            ]
+          },
+          {
+            "listTitle": "新型多频段/超视距电台",
+            "listImg": "/images/product/a_b.png",
+            "proList": [
+              {
+                "proTitle": "车载式VHF电台",
+                "isModel": true,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                ]
+              }
+            ]
+          },
+          {
+            "listTitle": "升空中继",
+            "listImg": "/images/product/a_c.png",
+            "proList": [
+              {
+                "proTitle": "车载式VHF电台",
+                "isModel": true,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "宽带机动通信",
+        "titleImg": "/images/cate/c.png",
+        "rightImg": "/images/product/zstx/zstx.png",
+        "rightVideo": "/video/4.mp4",
+        "list": [
+          {
+            "listTitle": "超短波VHF/UHF电台",
+            "listImg": "/images/product/a_a.png",
+            "proList": [
+              {
+                "proTitle": "车载式VHF电台",
+                "isModel": true,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                ]
+              }
+            ]
+          },
+          {
+            "listTitle": "新型多频段/超视距电台",
+            "listImg": "/images/product/a_b.png",
+            "proList": [
+              {
+                "proTitle": "车载式VHF电台",
+                "isModel": true,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                ]
+              }
+            ]
+          },
+          {
+            "listTitle": "升空中继",
+            "listImg": "/images/product/a_c.png",
+            "proList": [
+              {
+                "proTitle": "车载式VHF电台",
+                "isModel": true,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "固定通信",
+        "titleImg": "/images/cate/d.png",
+        "rightImg": "/images/product/zstx/zstx.png",
+        "rightVideo": "/video/4.mp4",
+        "list": [
+          {
+            "listTitle": "超短波VHF/UHF电台",
+            "listImg": "/images/product/a_a.png",
+            "proList": [
+              {
+                "proTitle": "车载式VHF电台",
+                "isModel": true,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                ]
+              }
+            ]
+          },
+          {
+            "listTitle": "新型多频段/超视距电台",
+            "listImg": "/images/product/a_b.png",
+            "proList": [
+              {
+                "proTitle": "车载式VHF电台",
+                "isModel": true,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                ]
+              }
+            ]
+          },
+          {
+            "listTitle": "升空中继",
+            "listImg": "/images/product/a_c.png",
+            "proList": [
+              {
+                "proTitle": "车载式VHF电台",
+                "isModel": true,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "日常通信",
+        "titleImg": "/images/cate/e.png",
+        "rightImg": "/images/product/zstx/zstx.png",
+        "rightVideo": "/video/4.mp4",
+        "list": [
+          {
+            "listTitle": "超短波VHF/UHF电台",
+            "listImg": "/images/product/a_a.png",
+            "proList": [
+              {
+                "proTitle": "车载式VHF电台",
+                "isModel": true,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                ]
+              }
+            ]
+          },
+          {
+            "listTitle": "新型多频段/超视距电台",
+            "listImg": "/images/product/a_b.png",
+            "proList": [
+              {
+                "proTitle": "车载式VHF电台",
+                "isModel": true,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                ]
+              }
+            ]
+          },
+          {
+            "listTitle": "升空中继",
+            "listImg": "/images/product/a_c.png",
+            "proList": [
+              {
+                "proTitle": "车载式VHF电台",
+                "isModel": true,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "plan": [
+      {
+        "title": "陆军战术部队指挥通信解决方案",
+        "titleImg": "/images/plan/cate/a.png",
+        "rightImg": "/images/plan/desc/right.png",
+        "rightVideo": "/video/4.mp4"
+      },
+      {
+        "title": "国防通信骨干网解决方案",
+        "titleImg": "/images/plan/cate/b.png",
+        "rightImg": "/images/plan/desc/right.png",
+        "rightVideo": "/video/4.mp4"
+      },
+      {
+        "title": "全国军用电台网解决方案",
+        "titleImg": "/images/plan/cate/c.png",
+        "rightImg": "/images/plan/desc/right.png",
+        "rightVideo": "/video/4.mp4"
+      },
+      {
+        "title": "军警集群移动通信解决方案",
+        "titleImg": "/images/plan/cate/d.png",
+        "rightImg": "/images/plan/desc/right.png",
+        "rightVideo": "/video/4.mp4"
+      },
+      {
+        "title": "应急通信指挥解决方案",
+        "titleImg": "/images/plan/cate/e.png",
+        "rightImg": "/images/plan/desc/right.png",
+        "rightVideo": "/video/4.mp4"
+      }
+    ]
+  },
+  {
+    "type": "en",
+    "title": [
+    ],
+    "product": [
+      {
+        "title": "战术通信"
+      },
+      {
+        "title": "远程广域通信"
+      },
+      {
+        "title": "宽带机动通信"
+      },
+      {
+        "title": "固定通信"
+      },
+      {
+        "title": "日常通信"
+      }
+    ]
+  }
+]

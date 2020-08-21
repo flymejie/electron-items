@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <link rel='stylesheet' href='/stylesheets/swiper.min.css'/>
+</head>
+<body>
+<div class="details" data-list="<%= proListJson %>">
+    <div class="cptx_head">
+        <i class="cptx_head_text p"> </i>
+    </div>
+    <div class="details_list">
+
+    </div>
+</div>
+<script src="/javascripts/socket.io.js"></script>
+<script src="/javascripts/socket.js"></script>
+<script src="/javascripts/swiper-3.4.2.min.js"></script>
+<script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/show/details.js"></script>
+</body>
+</html>

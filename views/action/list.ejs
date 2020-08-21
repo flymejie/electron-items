@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+<div class="cptx_box">
+    <ul class="cptx_list">
+        <li class="cptx_head">
+            <i class="cptx_head_text"><%= proListJson.title %></i>
+        </li>
+        <li class="cptx_img">
+            <img src="<%= proListJson.rightImg %>" alt="">
+        </li>
+        <li class="cptx_video">
+            <video id="video" src="<%= proListJson.rightVideo %>"  controls loop></video>
+        </li>
+        <li class="cptx_video_btn" >
+            <img src="/images/product/play.png" alt="">
+        </li>
+    </ul>
+</div>
+<script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/action/list.js"></script>
+
+</body>
+</html>

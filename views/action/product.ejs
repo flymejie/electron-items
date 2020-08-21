@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+<%- include("./header.ejs") %>
+<div class="cate_box">
+    <div class="cate_left">
+        <div class="left_top">
+            <img src="<%= leftTopImg[0].cateLeftTop %>" alt="">
+        </div>
+        <ul class="cate_list">
+            <% for(let i = 0;i < proListJson.length;i++){ %>
+                <li class="list_item" data-index="<%= [i] %>">
+                    <div class="list_item_title" data-name="<%= proListJson[i].title %>" data-index="<%= [i] %>"
+                         data-type="<%= proType %>">
+                        <span><%= proListJson[i].title %></span>
+                    </div>
+                    <ol class="item_list" data-name="<%= proListJson[i].title %>" data-index="<%= [i] %>"
+                        data-type="<%= proType %>">
+                        <% for(let j = 0;j < proListJson[i].list.length;j++){ %>
+                            <li class="item_list_li" data-name="<%= proListJson[i].list[j].listTitle %>"
+                                data-index="<%= [j] %>">
+                                <%= proListJson[i].list[j].listTitle %>
+                            </li>
+                        <% } %>
+                    </ol>
+                </li>
+            <% } %>
+        </ul>
+    </div>
+
+    <div class="cate_con">
+        <div class="cate_item ">
+            <iframe src="" frameborder="0" id="iframes" class="cate_iframe" id="iframe">
+            </iframe>
+        </div>
+    </div>
+</div>
+</body>
+<script src="/javascripts/socket.io.js"></script>
+<script src="/javascripts/socket.js"></script>
+<script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/action/product.js"></script>
+<script src="/javascripts/action/head.js"></script>
+</html>

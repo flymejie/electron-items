@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <title><%= title.title %></title>
+    <script src="/javascripts/socket.io.js"></script>
+</head>
+<body>
+<%- include("./header.ejs") %>
+<div class="product_box" id="Pbox">
+    <div class="p_title">
+        <img src="<%= title.titleImg %>" alt="">
+    </div>
+    <ul class="product_list" id="proList">
+        <% proListJson.forEach(function(item,index){ %>
+            <li class="p_list_item" data-name="<%= item.title %>" data-index="<%= index %>" data-type="<%= proType %>">
+                <img src="<%= item.titleImg %>" alt="" data-name="<%= item.title %>" data-src="<%= item.titleImg %>" data-index="<%= index %>" data-type="<%= proType %>">
+            </li>
+        <% }) %>
+    </ul>
+</div>
+
+<script src="/javascripts/socket.js"></script>
+<script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/action/cate.js"></script>
+<script src="/javascripts/action/head.js"></script>
+</body>
+</html>
