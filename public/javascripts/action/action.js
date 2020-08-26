@@ -15,14 +15,16 @@ $('.vide_list').on('click', 'li img', function () {
     switch (that.data('type')) {
         case 0:
             langNum = 0;
+            sendSocket.sendChangeLang(langNum);
             break;
         case 1:
             langNum = 1;
+            sendSocket.sendChangeLang(langNum);
             break;
         case 'in':
             sendSocket.sendChangeLang(langNum);
             sendSocket.sendClick(that.data('type'));
-            sendSocket.sendRouterMsg('/home');
+            // sendSocket.sendRouterMsg('/home');
             window.location.href = '/home';
             break;
     }

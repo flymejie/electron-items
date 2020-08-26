@@ -51,12 +51,19 @@ $(function () {
         });
     }
 
-    let ios = new socketIo;
+    let ios = io.connect('http://127.0.0.1:3300');
 
     $('.details_list').on('click', '.details_btn_box .details_3Dbtn', function () {
-        console.log($(this).data('model'));
         window.sessionStorage.setItem('model', JSON.stringify($(this).data('model')));
-        ios.sendIframeSrc('/productModel');
+        ios.emit('sendModelIn',{"msg":"productModel"});
+        ios.emit('sendIframeSrc',{"Src":"/productModel"});
+    });
+
+    $('.details_list').on('click', '.details_btn_box .swiper-button-next', function () {
+        ios.emit('sendBtnDir',{"msg":"next"});
+    });
+    $('.details_list').on('click', '.details_btn_box .swiper-button-prev', function () {
+        ios.emit('sendBtnDir',{"msg":"prev"});
     })
 
 });

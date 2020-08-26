@@ -51,12 +51,40 @@ $(function () {
         });
     }
 
-    let ios = new socketIo;
+    var ios = new socketIo;
 
     $('.details_list').on('click', '.details_btn_box .details_3Dbtn', function () {
         console.log($(this).data('model'));
         window.sessionStorage.setItem('model', JSON.stringify($(this).data('model')));
         ios.sendIframeSrc('/users/productModel');
+    })
+
+
+
+    let acceptHttp = window.localStorage.getItem('acceptHttp');
+
+    let acceptSocket = io.connect(acceptHttp);
+
+    acceptSocket.on('connect',function(){
+        console.log('connect');
+    })
+
+    acceptSocket.on('sendModelIn',function(data){
+        console.log(data);
+        window.sessionStorage.setItem('model', JSON.stringify($('.details_3Dbtn').data('model')));
+        ios.sendIframeSrc('/'+data.msg);
+    })
+    acceptSocket.on('sendBtnDir',function(data){
+        console.log('sendBtnDir',data);
+        if(data.msg == 'next'){
+            $('.swiper-button-next').click();
+        }else if(data.msg == 'prev'){
+            $('.swiper-button-prev').click();
+        }
+    })
+
+    acceptSocket.on('disconnect',function(){
+        console.log('disconnect');
     })
 
 });

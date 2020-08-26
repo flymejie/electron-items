@@ -15,3 +15,25 @@ $('#proList').on('click', 'li', function () {
     sendSocket.sendRouterMsg('/users/' + that.data('type'));
 });
 
+
+let acceptHttp = window.localStorage.getItem('acceptHttp');
+
+let acceptSocket = io.connect(acceptHttp);
+
+acceptSocket.on('connect',function(){
+    console.log('connect');
+})
+
+acceptSocket.on('sendClick',function(data){
+    console.log(data);
+    window.sessionStorage.setItem('btnIndex', data.msg);
+})
+
+acceptSocket.on('sendRouterMsg',function(data){
+    console.log(data);
+   window.location.href = '/users' + data.router;
+})
+
+acceptSocket.on('disconnect',function(){
+    console.log('disconnect');
+})

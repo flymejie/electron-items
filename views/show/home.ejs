@@ -3,8 +3,6 @@
 <head>
     <title><%= title %></title>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <link rel='stylesheet' href='/stylesheets/style.css'/>
     <script src="/javascripts/socket.io.js"></script>
 </head>
@@ -22,10 +20,10 @@
         <img src="/images/home/title.png" alt="">
     </div>
     <ul class="home_list">
-        <li class="h_list_item">
+        <li class="h_list_item product_item" >
             <img src="/images/home/a.png" alt="产品体系" data-src="/images/home/a.png" data-type="product">
         </li>
-        <li class="h_list_item">
+        <li class="h_list_item plan_item">
             <img src="/images/home/b.png" alt="解决方案" data-src="/images/home/b.png" data-type="plan">
         </li>
         <li class="h_list_desc">

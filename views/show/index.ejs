@@ -3,8 +3,8 @@
 <head>
     <title><%= title %></title>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
+    <!-- <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
     <link rel='stylesheet' href='/stylesheets/style.css'/>
     <script src="/javascripts/socket.io.js"></script>
 </head>
@@ -23,7 +23,7 @@
         <li class="vide_btn vide_en vide_lan">
             <img src="/images/vide/en.png" alt="" data-src="/images/vide/en.png" class="vide_img" data-type="1">
         </li>
-        <li class="vide_btn vide_in">
+        <li class="vide_btn vide_in" id='vide_in'>
             <img src="/images/vide/in.png" data-src="/images/vide/in.png" alt="" data-type="in">
         </li>
     </ul>
@@ -31,5 +31,6 @@
 </body>
 <script src="/javascripts/socket.js"></script>
 <script src="/javascripts/jquery.js"></script>
+<!-- <script src="/javascripts/show/showSocket.js"></script> -->
 <script src="/javascripts/show/action.js"></script>
 </html>

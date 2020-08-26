@@ -3,8 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title><%= title %></title>
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <link rel='stylesheet' href='/stylesheets/style.css'/>
 </head>
 <body>
@@ -24,6 +22,7 @@
         </li>
     </ul>
 </div>
+<script src="/javascripts/socket.io.js"></script>
 <script src="/javascripts/jquery.js"></script>
 <script src="/javascripts/show/list.js"></script>
 

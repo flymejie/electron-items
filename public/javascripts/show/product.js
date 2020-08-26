@@ -52,7 +52,7 @@ $('.list_item').on('click', '.plan_list_item', function () {
 function sendIframe(str) {
     //// router -->  /type/:list
     console.log(str);
-    $('#iframes').attr('src', str);
+    $('#iframes').attr('src', '/users'+str);
 }
 
 
@@ -91,3 +91,78 @@ $('.item_list').on('click', ".item_list_li", function () {
 
 })();
 
+function changePlanBtn(dataName){
+    window.sessionStorage.setItem('headerName',dataName);
+    $.each($('.plan_list_item'), (n, m) => {
+        if (dataName == $(m).data('name')) {
+            $(m).css({
+                "background": "url('../images/plan/tbg_a.png')"
+            });
+        } else {
+            $(m).css({
+                "background": "url('../images/plan/tbg.png')"
+            }).siblings('.item_list');
+        }
+    });
+}
+
+function changeBtn(dataName){
+     window.sessionStorage.setItem('headerName',dataName);
+     $('.cate_left').show();
+    $('.item_list_li').css({"background-color": "#4d85b3"});
+    $.each($('.list_item_title'), (n, m) => {
+        if (dataName == $(m).data('name')) {
+            $(m).css({
+                "background": "url('../images/product/a_a.png')"
+            }).siblings('.item_list').slideDown();
+        } else {
+            $(m).css({
+                "background": "url('../images/product/a.png')"
+            }).siblings('.item_list').slideUp();
+        }
+    });
+}
+
+function changeBtnTwo(dataName){
+    window.sessionStorage.setItem('headerName',dataName);
+    $('.cate_left').hide();
+}
+
+let acceptHttp = window.localStorage.getItem('acceptHttp');
+
+let acceptSocket = io.connect(acceptHttp);
+
+acceptSocket.on('connect',function(){
+    console.log('connect');
+})
+
+acceptSocket.on('sendClick',function(data){
+    console.log(data);
+    changeBtn(data.msg);
+})
+
+acceptSocket.on('sendPlanClick',function(data){
+    console.log(data);
+    changePlanBtn(data.msg);
+})
+
+acceptSocket.on('sendOneMsg',function(data){
+    console.log(data);
+    changeBtnTwo(data.msg);
+})
+
+acceptSocket.on('sendRouterMsg',function(data){
+    console.log(data);
+    sendIframe(data.router);
+})
+
+acceptSocket.on('sendListHide',function(data){
+    console.log(data);
+    if(data.msg == 'cptx_video'){
+    $('.cate_left').hide();
+    }
+})
+
+acceptSocket.on('disconnect',function(){
+    console.log('disconnect');
+})

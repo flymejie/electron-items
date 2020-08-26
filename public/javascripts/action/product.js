@@ -18,6 +18,9 @@ $('.cate_list').on('click', '.list_item .list_item_title', function () {
             }).siblings('.item_list').slideDown();
             let str = that.data('type') + '&&' + that.data('index');
             let routerStr = '/' + that.data('type') + '/:' + str;
+
+            socket.emit('sendClick',{"msg": that.data('name')});
+            socket.emit('sendRouterMsg',{"router": routerStr});
             sendIframe(routerStr);
         } else {
             $(m).css({
@@ -39,11 +42,13 @@ $('.list_item').on('click', '.plan_list_item', function () {
             let str = that.data('type') + '&&' + that.data('index');
             let routerStr = '/' + that.data('type') + '/:' + str;
             console.log(routerStr);
+            socket.emit('sendPlanClick',{"msg": that.data('name')});
+            socket.emit('sendRouterMsg',{"router": routerStr});
             sendIframe(routerStr);
         } else {
             $(m).css({
                 "background": "url('../images/plan/tbg.png')"
-            }).siblings('.item_list').slideUp();
+            }).siblings('.item_list');
         }
     });
 });
@@ -62,13 +67,14 @@ $('.item_list').on('click', ".item_list_li", function () {
     window.sessionStorage.setItem('headerName',that.parent('ol').data('name')+'>'+that.data('name'));
     let str = $(this).parent('ol').data('type') + '&&' + $(this).parent('ol').data('index') + '/:' + $(this).data('index');
     let routerStr = '/' + $(this).parent('ol').data('type') + '/:' + str;
-
     $('.item_list_li').css({"background-color": "#4d85b3"});
     $.each(that.parent('.item_list').children('.item_list_li'), (n, m) => {
         if (that.data('name') == $(m).data('name')) {
             $(m).css({"background-color": "#F18D15"});
         }
     });
+    socket.emit('sendOneMsg',{"msg": that.parent('ol').data('name')+'>'+that.data('name')});
+    socket.emit('sendRouterMsg',{"router": routerStr});
     sendIframe(routerStr);
     // console.log(str,routerStr);
 });
