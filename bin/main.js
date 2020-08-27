@@ -95,9 +95,9 @@ function onListening() {
 function createWindow() {
     // Create the browser window.
     const mainWindow = new BrowserWindow({
-        width: 1152,
-        height: 648,
-        // frame:false,
+        width: 1920,
+        height: 1080,
+        frame:false,
         webPreferences: {
             preload: path.join(__dirname, 'preload.js'),
             webSecurity: false
@@ -109,7 +109,7 @@ function createWindow() {
     // mainWindow.loadFile('index.html');
     mainWindow.loadURL('http://127.0.0.1:' + port + '/');
     // Open the DevTools.
-    mainWindow.webContents.openDevTools()
+    // mainWindow.webContents.openDevTools()
 }
 
 // This method will be called when Electron has finished

@@ -33,6 +33,11 @@ class socketIo {
         })*/
     }
 
+    sendImgChange(str){
+        this.socket.emit('sendImgChange', {"msg": str});
+
+    }
+
     sendMsg(str){
         this.socket.emit('sendMsg', {"msg": str});
     }

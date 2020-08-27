@@ -77,6 +77,11 @@ var socketio = function (io) {
             socket.broadcast.emit('sendMouseUp', data);
         });
 
+        socket.on('sendImgChange', function (data) {
+            // console.log('sendMouseUp' + data, data.msg);
+            socket.broadcast.emit('sendImgChange', data);
+        });
+
 
         /////////////////////////////////
 
