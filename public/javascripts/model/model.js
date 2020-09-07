@@ -106,6 +106,21 @@ $('#container').on('mouseup',function(e){
     // console.log(x, y, z,s);
     ios.emit('sendMouseUp',{"msg":camera.position});
 });
+/// 鼠标滚轮事件
+$(document).on('mousewheel DOMMouseScroll', onMouseScroll);
+function onMouseScroll(e){
+    console.log(camera,camera.scale);
+    e.preventDefault();
+    var wheel = e.originalEvent.wheelDelta || -e.originalEvent.detail;
+    var delta = Math.max(-1, Math.min(1, wheel) );
 
+    ios.emit('sendScrollModel',{"msg":camera.position});
+
+    if(delta<0){//向下滚动
+        console.log('向下滚动');
+    }else{//向上滚动
+        console.log('向上滚动');
+    }
+}
 
 

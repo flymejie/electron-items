@@ -26,6 +26,11 @@ var socketio = function (io) {
             socket.broadcast.emit('sendIframeSrc', data);
         });
 
+        socket.on('sendCateRouter', function (data) {
+            console.log('sendCateRouter' + data, data.router);
+            socket.broadcast.emit('sendCateRouter', data);
+        });
+
         socket.on('sendRouterMsg', function (data) {
             console.log('sendRouterMsg' + data, data.router);
             socket.broadcast.emit('sendRouterMsg', data);
@@ -81,6 +86,24 @@ var socketio = function (io) {
             // console.log('sendMouseUp' + data, data.msg);
             socket.broadcast.emit('sendImgChange', data);
         });
+
+        /////  滚动条事件高度调整同步
+        socket.on('sendScroll', function (data) {
+            // console.log('sendScroll' + data, data.msg);
+            socket.broadcast.emit('sendScroll', data);
+        });
+
+        socket.on('sendScrollModel', function (data) {
+            // console.log('sendMouseUp' + data, data.msg);
+            socket.broadcast.emit('sendScrollModel', data);
+        });
+
+        socket.on('sendVideoShow', function (data) {
+            // console.log('sendVideoShow' + data, data.msg);
+            socket.broadcast.emit('sendVideoShow', data);
+        });
+
+
 
 
         /////////////////////////////////

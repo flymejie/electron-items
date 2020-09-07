@@ -35,6 +35,11 @@ acceptSocket.on('sendIframeSrc',function(data){
     ios.sendIframeSrc(data.Src);
 })
 
+acceptSocket.on('sendScroll',function(data){
+    console.log('sendScroll',data);
+    $('#item_con').scrollTop(data.msg);
+})
+
 acceptSocket.on('disconnect',function(){
     console.log('disconnect');
 })

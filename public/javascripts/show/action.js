@@ -1,9 +1,9 @@
 
 (function(){
-    window.localStorage.setItem('acceptHttp','192.168.0.124:3300');
+    window.localStorage.setItem('acceptHttp','192.168.0.163:3300');
 })();
 
-var acceptSocket = io.connect('192.168.0.124:3300');
+var acceptSocket = io.connect('192.168.0.163:3300');
 
 acceptSocket.on('connect',function(){
     console.log('connect');

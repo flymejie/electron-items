@@ -42,6 +42,18 @@ acceptSocket.on('sendClick',function(data){
         $('.plan_item').click();
     }
 })
+
+acceptSocket.on('sendImgChange',function(data){
+    if(data.msg == 'product'){
+        console.log('product');
+        $('.product_item').children('img').attr('src',$('.product_item').children('img').attr('src').slice(0,-4)+'_a.png');
+    }else if(data.msg == 'plan'){
+        console.log('plan');
+        $('.plan_item').children('img').attr('src',$('.plan_item').children('img').attr('src').slice(0,-4)+'_a.png');
+
+    }
+})
+
 acceptSocket.on('sendHeadMsg',function(data){
     console.log(data);  
      if(data.msg == 'exit'){

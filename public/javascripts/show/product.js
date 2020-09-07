@@ -1,9 +1,4 @@
-let socket = io.connect('http://127.0.0.1:3300');
 
-socket.on('sendIframeSrc', function (data) {
-    console.log(4444, data);
-    sendIframe(data.Src);
-});
 
 
 ///// 一级 点击事件
@@ -74,22 +69,7 @@ $('.item_list').on('click', ".item_list_li", function () {
 });
 
 
-/////// end ///////
-(function () {
-    ////////////////一次性事件
-    let btnIndex = parseInt(window.sessionStorage.getItem('btnIndex'));
-    $.each($('.list_item_title'), (i, m) => {
-        if ($(m).data('index') == btnIndex) {
-            $(m).click();
-        }
-    });
-    $.each($('.plan_list_item'), (i, m) => {
-        if ($(m).data('index') == btnIndex) {
-            $(m).click();
-        }
-    });
 
-})();
 
 function changePlanBtn(dataName){
     window.sessionStorage.setItem('headerName',dataName);
@@ -141,6 +121,12 @@ acceptSocket.on('sendClick',function(data){
     changeBtn(data.msg);
 })
 
+
+acceptSocket.on('sendIframeSrc', function (data) {
+    console.log(4444, data);
+    sendIframe(data.Src);
+});
+
 acceptSocket.on('sendPlanClick',function(data){
     console.log(data);
     changePlanBtn(data.msg);
@@ -166,3 +152,32 @@ acceptSocket.on('sendListHide',function(data){
 acceptSocket.on('disconnect',function(){
     console.log('disconnect');
 })
+
+
+
+
+let socket = io.connect('http://127.0.0.1:3300');
+
+socket.on('sendIframeSrc', function (data) {
+    console.log(4444, data);
+    sendIframe(data.Src);
+});
+
+
+
+/////// end ///////
+(function () {
+    ////////////////一次性事件
+    let btnIndex = parseInt(window.sessionStorage.getItem('btnIndex'));
+    $.each($('.list_item_title'), (i, m) => {
+        if ($(m).data('index') == btnIndex) {
+            $(m).click();
+        }
+    });
+    $.each($('.plan_list_item'), (i, m) => {
+        if ($(m).data('index') == btnIndex) {
+            $(m).click();
+        }
+    });
+
+})();

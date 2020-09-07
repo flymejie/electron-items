@@ -7,7 +7,7 @@ window.onload = function () {
     let goBack = document.getElementById('goBack');
 
     let Iframe = document.getElementById('iframes');
-    console.log(Iframe);
+    // console.log(Iframe);
     if (Iframe) {
         console.log(11);
         goBack.onclick = function () {

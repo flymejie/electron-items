@@ -139,7 +139,9 @@
                 ],
                 "proimgList": [
                   "/images/product/zstx/SKZJ/a.png"
-                ]
+                ],
+                "isVideo": true,
+                "videoSrc": "/video/zstx/skzj.mp4"
               }
             ]
           }
@@ -172,7 +174,7 @@
               },
               {
                 "proTitle": "短波125W车载台",
-                "proImg": "/images/product/no.png",
+                "proImg": "/images/product/ycgy/DB125W-CZT/DB125W-CZT.png",
                 "isModel": false,
                 "model": [
                   {
@@ -182,12 +184,12 @@
                   }
                 ],
                 "proimgList": [
-                  "/images/product/nopro.png"
+                  "/images/product/ycgy/DB125W-CZT/a.png"
                 ]
               },
               {
                 "proTitle": "短波20W背负电台",
-                "proImg": "/images/product/no.png",
+                "proImg": "/images/product/ycgy/DB20W-BF/DB20W-BF.png",
                 "isModel": false,
                 "model": [
                   {
@@ -197,7 +199,7 @@
                   }
                 ],
                 "proimgList": [
-                  "/images/product/nopro.png"
+                  "/images/product/ycgy/DB20W-BF/a.png"
                 ]
               },
               {
@@ -224,7 +226,7 @@
               {
                 "proTitle": "主站/中心站/HUB站",
                 "proImg": "/images/product/no.png",
-                "isModel": true,
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -238,8 +240,8 @@
               },
               {
                 "proTitle": "固定远端站",
-                "proImg": "/images/product/no.png",
-                "isModel": true,
+                "proImg": "/images/product/ycgy/GDYDZ/GDYDZ.png",
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -248,13 +250,28 @@
                   }
                 ],
                 "proimgList": [
-                  "/images/product/nopro.png"
+                  "/images/product/ycgy/GDYDZ/a.png"
+                ]
+              },
+              {
+                "proTitle": "车载动中通卫星站",
+                "proImg": "/images/product/ycgy/CZDZTWXZ/CZDZTWXZ.png",
+                "isModel": false,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/ycgy/CZDZTWXZ/a.png"
                 ]
               },
               {
                 "proTitle": "车载静中通卫星站",
-                "proImg": "/images/product/no.png",
-                "isModel": true,
+                "proImg": "/images/product/ycgy/CZJZTWXZ/CZJZTWXZ.png",
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -263,13 +280,13 @@
                   }
                 ],
                 "proimgList": [
-                  "/images/product/nopro.png"
+                  "/images/product/ycgy/CZJZTWXZ/a.png"
                 ]
               },
               {
                 "proTitle": "舰载式卫星通信站",
-                "proImg": "/images/product/no.png",
-                "isModel": true,
+                "proImg": "/images/product/ycgy/JZSWXTXZ/JZSWXTXZ.png",
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -278,47 +295,11 @@
                   }
                 ],
                 "proimgList": [
-                  "/images/product/nopro.png"
+                  "/images/product/ycgy/JZSWXTXZ/a.png"
                 ]
               },
               {
                 "proTitle": "机载式卫星通信站",
-                "proImg": "/images/product/no.png",
-                "isModel": true,
-                "model": [
-                  {
-                    "models": "",
-                    "material": "",
-                    "map": ""
-                  }
-                ],
-                "proimgList": [
-                  "/images/product/nopro.png"
-                ]
-              },
-              {
-                "proTitle": "单兵便携式卫星通信站",
-                "proImg": "/images/product/no.png",
-                "isModel": true,
-                "model": [
-                  {
-                    "models": "",
-                    "material": "",
-                    "map": ""
-                  }
-                ],
-                "proimgList": [
-                  "/images/product/nopro.png"
-                ]
-              }
-            ]
-          },
-          {
-            "listTitle": "散射通信",
-            "listImg": "/images/product/a_b.png",
-            "proList": [
-              {
-                "proTitle": "固定散射站",
                 "proImg": "/images/product/no.png",
                 "isModel": false,
                 "model": [
@@ -333,9 +314,9 @@
                 ]
               },
               {
-                "proTitle": "机动散射通信车",
-                "proImg": "/images/product/no.png",
-                "isModel": true,
+                "proTitle": "单兵便携式卫星通信站",
+                "proImg": "/images/product/ycgy/DBBXSWX/DBBXSWX.png",
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -344,13 +325,49 @@
                   }
                 ],
                 "proimgList": [
-                  "/images/product/nopro.png"
+                  "/images/product/ycgy/DBBXSWX/a.png"
+                ]
+              }
+            ]
+          },
+          {
+            "listTitle": "散射通信",
+            "listImg": "/images/product/a_b.png",
+            "proList": [
+              {
+                "proTitle": "固定散射站",
+                "proImg": "/images/product/ycgy/GDSSZ/GDSSZ.png",
+                "isModel": false,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/ycgy/GDSSZ/a.png"
+                ]
+              },
+              {
+                "proTitle": "机动散射通信车",
+                "proImg": "/images/product/ycgy/JDSSTXC/JDSSTXC.png",
+                "isModel": false,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/ycgy/JDSSTXC/a.png"
                 ]
               },
               {
                 "proTitle": "多向散射通信车",
-                "proImg": "/images/product/no.png",
-                "isModel": true,
+                "proImg": "/images/product/ycgy/DXSSTXC/DXSSTXC.png",
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -359,13 +376,13 @@
                   }
                 ],
                 "proimgList": [
-                  "/images/product/nopro.png"
+                  "/images/product/ycgy/DXSSTXC/a.png"
                 ]
               },
               {
                 "proTitle": "便携式散射装备",
-                "proImg": "/images/product/no.png",
-                "isModel": true,
+                "proImg": "/images/product/ycgy/BXSSSZB/BXSSSZB.png",
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -374,7 +391,7 @@
                   }
                 ],
                 "proimgList": [
-                  "/images/product/nopro.png"
+                  "/images/product/ycgy/BXSSSZB/a.png"
                 ]
               }
             ]
@@ -414,8 +431,8 @@
             "proList": [
               {
                 "proTitle": "宽带微波电台",
-                "proImg": "/images/product/no.png",
-                "isModel": true,
+                "proImg": "/images/product/kdjdtx/KDWBDT/KDWBDT.png",
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -424,7 +441,7 @@
                   }
                 ],
                 "proimgList": [
-                  "/images/product/nopro.png"
+                  "/images/product/kdjdtx/KDWBDT/a.png"
                 ]
               }
             ]
@@ -434,9 +451,9 @@
             "listImg": "/images/product/a_b.png",
             "proList": [
               {
-                "proTitle": "区域宽带移动系统",
-                "proImg": "/images/product/no.png",
-                "isModel": true,
+                "proTitle": "QK端机（LH）",
+                "proImg": "/images/product/kdjdtx/QK/QK.png",
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -445,7 +462,82 @@
                   }
                 ],
                 "proimgList": [
-                  "/images/product/nopro.png"
+                  "/images/product/kdjdtx/QK/a.png"
+                ]
+              },
+              {
+                "proTitle": "车载式宽带移动用户台",
+                "proImg": "/images/product/kdjdtx/CZS/CZS.png",
+                "isModel": false,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/kdjdtx/CZS/a.png"
+                ]
+              },
+              {
+                "proTitle": "车载式宽带移动中心站",
+                "proImg": "/images/product/kdjdtx/CZSYDZXZ/CZSYDZXZ.png",
+                "isModel": false,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/kdjdtx/CZSYDZXZ/a.png"
+                ]
+              },
+              {
+                "proTitle": "宽窄融合手持台",
+                "proImg": "/images/product/kdjdtx/SCD/SCD.png",
+                "isModel": false,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/kdjdtx/SCD/a.png"
+                ]
+              },
+              {
+                "proTitle": "轻量化背负式宽带移动背负台",
+                "proImg": "/images/product/kdjdtx/QLH/QLH.png",
+                "isModel": false,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/kdjdtx/QLH/a.png"
+                ]
+              },
+              {
+                "proTitle": "升空中继",
+                "proImg": "/images/product/kdjdtx/QLHBFS/QLHBFS.png",
+                "isModel": false,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/kdjdtx/QLHBFS/a.png"
                 ]
               }
             ]
@@ -455,9 +547,9 @@
             "listImg": "/images/product/a_c.png",
             "proList": [
               {
-                "proTitle": "自组网分队战术终端",
-                "proImg": "/images/product/no.png",
-                "isModel": true,
+                "proTitle": "CB9通用综合战术信息终端（平板型）",
+                "proImg": "/images/product/kdjdtx/CB9PBD/CB9PBD.png",
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -466,7 +558,22 @@
                   }
                 ],
                 "proimgList": [
-                  "/images/product/nopro.png"
+                  "/images/product/kdjdtx/CB9PBD/a.png"
+                ]
+              },
+              {
+                "proTitle": "CB9通用综合战术信息终端（手持型）",
+                "proImg": "/images/product/kdjdtx/CB9SCD/CB9SCD.png",
+                "isModel": false,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/kdjdtx/CB9SCD/a.png"
                 ]
               }
             ]
@@ -476,9 +583,9 @@
             "listImg": "/images/product/a_c.png",
             "proList": [
               {
-                "proTitle": "无线激光(动中通)",
-                "proImg": "/images/product/no.png",
-                "isModel": true,
+                "proTitle": "车载FSO设备",
+                "proImg": "/images/product/kdjdtx/CZFSO/CZFSO.png",
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -487,7 +594,82 @@
                   }
                 ],
                 "proimgList": [
-                  "/images/product/nopro.png"
+                  "/images/product/kdjdtx/CZFSO/a.png"
+                ]
+              },
+              {
+                "proTitle": "固定台站系列",
+                "proImg": "/images/product/kdjdtx/GDZ/GDZ.png",
+                "isModel": false,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/kdjdtx/GDZ/a.png"
+                ]
+              },
+              {
+                "proTitle": "机动便携式",
+                "proImg": "/images/product/kdjdtx/JDBXS/JDBXS.png",
+                "isModel": false,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/kdjdtx/JDBXS/a.png"
+                ]
+              },
+              {
+                "proTitle": "机动便携式10G",
+                "proImg": "/images/product/kdjdtx/JDBXS10/JDBXS10.png",
+                "isModel": false,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/kdjdtx/JDBXS10/a.png"
+                ]
+              },
+              {
+                "proTitle": "舰载FSO设备",
+                "proImg": "/images/product/kdjdtx/JZFSO/JZFSO.png",
+                "isModel": false,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/kdjdtx/JZFSO/a.png"
+                ]
+              },
+              {
+                "proTitle": "无人机载FSO设备",
+                "proImg": "/images/product/kdjdtx/WRFSO/WRFSO.png",
+                "isModel": false,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/kdjdtx/WRFSO/a.png"
                 ]
               }
             ]
@@ -506,8 +688,8 @@
             "proList": [
               {
                 "proTitle": "光纤通信系统",
-                "proImg": "/images/product/no.png",
-                "isModel": true,
+                "proImg": "/images/product/gdtx/GXTXXT/GXTXXT.png",
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -516,7 +698,7 @@
                   }
                 ],
                 "proimgList": [
-                  "/images/product/nopro.png"
+                  "/images/product/gdtx/GXTXXT/a.png"
                 ]
               }
             ]
@@ -527,8 +709,8 @@
             "proList": [
               {
                 "proTitle": "固定型",
-                "proImg": "/images/product/no.png",
-                "isModel": true,
+                "proImg": "/images/product/gdtx/GDX/GDX.png",
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -537,13 +719,13 @@
                   }
                 ],
                 "proimgList": [
-                  "/images/product/nopro.png"
+                  "/images/product/gdtx/GDX/a.png"
                 ]
               },
               {
                 "proTitle": "机动型",
-                "proImg": "/images/product/no.png",
-                "isModel": true,
+                "proImg": "/images/product/gdtx/JDX/JDX.png",
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -552,13 +734,13 @@
                   }
                 ],
                 "proimgList": [
-                  "/images/product/nopro.png"
+                  "/images/product/gdtx/JDX/a.png"
                 ]
               },
               {
                 "proTitle": "机动自组网型(微波宽带电台)",
-                "proImg": "/images/product/no.png",
-                "isModel": true,
+                "proImg": "/images/product/gdtx/JDZZWX/JDZZWX.png",
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -567,7 +749,7 @@
                   }
                 ],
                 "proimgList": [
-                  "/images/product/nopro.png"
+                  "/images/product/gdtx/JDZZWX/a.png"
                 ]
               }
             ]
@@ -579,7 +761,7 @@
               {
                 "proTitle": "无线激光(固定)",
                 "proImg": "/images/product/no.png",
-                "isModel": true,
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -607,7 +789,7 @@
             "proList": [
               {
                 "proTitle": "背负式窄带集群基站",
-                "proImg": "/images/product/no.png",
+                "proImg": "/images/product/rctx/SZJQXT/SZJQXT.png",
                 "isModel": false,
                 "model": [
                   {
@@ -617,7 +799,7 @@
                   }
                 ],
                 "proimgList": [
-                  "/images/product/nopro.png"
+                  "/images/product/rctx/SZJQXT/a.png"
                 ]
               }
             ]
@@ -628,8 +810,8 @@
             "proList": [
               {
                 "proTitle": "宽带LTE快速部署集群基站",
-                "proImg": "/images/product/no.png",
-                "isModel": true,
+                "proImg": "/images/product/rctx/KDJQXT/KDJQXT.png",
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -638,13 +820,13 @@
                   }
                 ],
                 "proimgList": [
-                  "/images/product/nopro.png"
+                  "/images/product/rctx/KDJQXT/a.png"
                 ]
               },
               {
-                "proTitle": "宽窄带融合智能手持终端",
-                "proImg": "/images/product/no.png",
-                "isModel": true,
+                "proTitle": "宽带融合智能手持终端",
+                "proImg": "/images/product/rctx/KDJQSCD/KDJQSCD.png",
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -653,7 +835,7 @@
                   }
                 ],
                 "proimgList": [
-                  "/images/product/nopro.png"
+                  "/images/product/rctx/KDJQSCD/a.png"
                 ]
               }
             ]
@@ -713,7 +895,7 @@
         "title": "战术通信",
         "titleImg": "/images/cate/a.png",
         "rightImg": "/images/product/zstx/zstx.png",
-        "rightVideo": "/video/4.mp4",
+        "rightVideo": "/video/zstx/zstx.mp4",
         "list": [
           {
             "listTitle": "超短波VHF/UHF电台",
@@ -823,17 +1005,17 @@
             "proList": [
               {
                 "proTitle": "升空中继",
-                "proImg": "/images/product/no.png",
+                "proImg": "/images/product/zstx/SKZJ/SKZJ.png",
                 "isModel": true,
                 "model": [
                   {
                     "models": "/model/zstx/SKZJ/SKZJ.obj",
-                    "material": "/model/zstx/SKZJ/SKZJ.obj",
-                    "map": "/model/zstx/SKZJ/SKZJ.obj"
+                    "material": "/model/zstx/SKZJ/SKZJ.mtl",
+                    "map": "/model/zstx/SKZJ/SKZJ_c.jpg"
                   }
                 ],
                 "proimgList": [
-                  "/images/product/nopro.png"
+                  "/images/product/zstx/SKZJ/a.png"
                 ]
               }
             ]
@@ -867,7 +1049,7 @@
               },
               {
                 "proTitle": "短波125W车载台",
-                "proImg": "/images/product/no.png",
+                "proImg": "/images/product/ycgy/DB125W-CZT/DB125W-CZT.png",
                 "isModel": false,
                 "model": [
                   {
@@ -877,12 +1059,12 @@
                   }
                 ],
                 "proimgList": [
-                  "/images/product/nopro.png"
+                  "/images/product/ycgy/DB125W-CZT/a.png"
                 ]
               },
               {
                 "proTitle": "短波20W背负电台",
-                "proImg": "/images/product/no.png",
+                "proImg": "/images/product/ycgy/DB20W-BF/DB20W-BF.png",
                 "isModel": false,
                 "model": [
                   {
@@ -892,7 +1074,7 @@
                   }
                 ],
                 "proimgList": [
-                  "/images/product/nopro.png"
+                  "/images/product/ycgy/DB20W-BF/a.png"
                 ]
               },
               {
@@ -919,7 +1101,7 @@
               {
                 "proTitle": "主站/中心站/HUB站",
                 "proImg": "/images/product/no.png",
-                "isModel": true,
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -934,7 +1116,7 @@
               {
                 "proTitle": "固定远端站",
                 "proImg": "/images/product/no.png",
-                "isModel": true,
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -944,76 +1126,25 @@
                 ],
                 "proimgList": [
                   "/images/product/nopro.png"
+                ]
+              },
+              {
+                "proTitle": "车载动中通卫星站",
+                "proImg": "/images/product/ycgy/CZDZTWXZ/CZDZTWXZ.png",
+                "isModel": false,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/ycgy/CZDZTWXZ/a.png"
                 ]
               },
               {
                 "proTitle": "车载静中通卫星站",
-                "proImg": "/images/product/no.png",
-                "isModel": true,
-                "model": [
-                  {
-                    "models": "",
-                    "material": "",
-                    "map": ""
-                  }
-                ],
-                "proimgList": [
-                  "/images/product/nopro.png"
-                ]
-              },
-              {
-                "proTitle": "舰载式卫星通信站",
-                "proImg": "/images/product/no.png",
-                "isModel": true,
-                "model": [
-                  {
-                    "models": "",
-                    "material": "",
-                    "map": ""
-                  }
-                ],
-                "proimgList": [
-                  "/images/product/nopro.png"
-                ]
-              },
-              {
-                "proTitle": "机载式卫星通信站",
-                "proImg": "/images/product/no.png",
-                "isModel": true,
-                "model": [
-                  {
-                    "models": "",
-                    "material": "",
-                    "map": ""
-                  }
-                ],
-                "proimgList": [
-                  "/images/product/nopro.png"
-                ]
-              },
-              {
-                "proTitle": "单兵便携式卫星通信站",
-                "proImg": "/images/product/no.png",
-                "isModel": true,
-                "model": [
-                  {
-                    "models": "",
-                    "material": "",
-                    "map": ""
-                  }
-                ],
-                "proimgList": [
-                  "/images/product/nopro.png"
-                ]
-              }
-            ]
-          },
-          {
-            "listTitle": "散射通信",
-            "listImg": "/images/product/a_b.png",
-            "proList": [
-              {
-                "proTitle": "固定散射站",
                 "proImg": "/images/product/no.png",
                 "isModel": false,
                 "model": [
@@ -1028,9 +1159,9 @@
                 ]
               },
               {
-                "proTitle": "机动散射通信车",
+                "proTitle": "舰载式卫星通信站",
                 "proImg": "/images/product/no.png",
-                "isModel": true,
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -1043,9 +1174,75 @@
                 ]
               },
               {
+                "proTitle": "机载式卫星通信站",
+                "proImg": "/images/product/no.png",
+                "isModel": false,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/nopro.png"
+                ]
+              },
+              {
+                "proTitle": "单兵便携式卫星通信站",
+                "proImg": "/images/product/ycgy/DBBXSWX/DBBXSWX.png",
+                "isModel": false,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/ycgy/DBBXSWX/a.png"
+                ]
+              }
+            ]
+          },
+          {
+            "listTitle": "散射通信",
+            "listImg": "/images/product/a_b.png",
+            "proList": [
+              {
+                "proTitle": "固定散射站",
+                "proImg": "/images/product/ycgy/GDSSZ/GDSSZ.png",
+                "isModel": false,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/ycgy/GDSSZ/a.png"
+                ]
+              },
+              {
+                "proTitle": "机动散射通信车",
+                "proImg": "/images/product/ycgy/JDSSTXC/JDSSTXC.png",
+                "isModel": false,
+                "model": [
+                  {
+                    "models": "",
+                    "material": "",
+                    "map": ""
+                  }
+                ],
+                "proimgList": [
+                  "/images/product/ycgy/JDSSTXC/a.png"
+                ]
+              },
+              {
                 "proTitle": "多向散射通信车",
                 "proImg": "/images/product/no.png",
-                "isModel": true,
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -1059,8 +1256,8 @@
               },
               {
                 "proTitle": "便携式散射装备",
-                "proImg": "/images/product/no.png",
-                "isModel": true,
+                "proImg": "/images/product/ycgy/BXSSSZB/BXSSSZB.png",
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -1069,7 +1266,7 @@
                   }
                 ],
                 "proimgList": [
-                  "/images/product/nopro.png"
+                  "/images/product/ycgy/BXSSSZB/a.png"
                 ]
               }
             ]
@@ -1110,7 +1307,7 @@
               {
                 "proTitle": "宽带微波电台",
                 "proImg": "/images/product/no.png",
-                "isModel": true,
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -1131,7 +1328,7 @@
               {
                 "proTitle": "区域宽带移动系统",
                 "proImg": "/images/product/no.png",
-                "isModel": true,
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -1152,7 +1349,7 @@
               {
                 "proTitle": "自组网分队战术终端",
                 "proImg": "/images/product/no.png",
-                "isModel": true,
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -1173,7 +1370,7 @@
               {
                 "proTitle": "无线激光(动中通)",
                 "proImg": "/images/product/no.png",
-                "isModel": true,
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -1202,7 +1399,7 @@
               {
                 "proTitle": "光纤通信系统",
                 "proImg": "/images/product/no.png",
-                "isModel": true,
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -1223,7 +1420,7 @@
               {
                 "proTitle": "固定型",
                 "proImg": "/images/product/no.png",
-                "isModel": true,
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -1238,7 +1435,7 @@
               {
                 "proTitle": "机动型",
                 "proImg": "/images/product/no.png",
-                "isModel": true,
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -1253,7 +1450,7 @@
               {
                 "proTitle": "机动自组网型(微波宽带电台)",
                 "proImg": "/images/product/no.png",
-                "isModel": true,
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -1274,7 +1471,7 @@
               {
                 "proTitle": "无线激光(固定)",
                 "proImg": "/images/product/no.png",
-                "isModel": true,
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -1324,7 +1521,7 @@
               {
                 "proTitle": "宽带LTE快速部署集群基站",
                 "proImg": "/images/product/no.png",
-                "isModel": true,
+                "isModel": false,
                 "model": [
                   {
                     "models": "",
@@ -1339,7 +1536,7 @@
               {
                 "proTitle": "宽窄带融合智能手持终端",
                 "proImg": "/images/product/no.png",
-                "isModel": true,
+                "isModel": false,
                 "model": [
                   {
                     "models": "",

@@ -24,6 +24,11 @@ class socketIo {
         console.log(str);
         this.socket.emit('sendRouterMsg', {"router": str});
     }
+
+    sendCateRouter(str) {
+        console.log(str);
+        this.socket.emit('sendCateRouter', {"router": str});
+    }
     sendIframeSrc(str) {
         // console.log(str);
         this.socket.emit('sendIframeSrc', {"Src": str});

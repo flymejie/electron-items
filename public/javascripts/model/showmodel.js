@@ -62,16 +62,15 @@ function addCamera() {
 }
 
 function render() {
-    // console.log(camera)
     renderer.setSize(w, h);
     renderer.render(scene, camera);
 }
 
 function addLight() {
-    light.position.set(0, 500, 300); //设置光源位置
+    light.position.set(100, 400, 300); //设置光源位置
     light.castShadow = true;
     scene.add(light); //将光源加入场景
-    scene.add(new THREE.AmbientLight("rgb(180,180,180)")); //加入环境光
+    scene.add(new THREE.AmbientLight("rgb(200,200,200)")); //加入环境光
 }
 
 function addControls() {
@@ -93,19 +92,38 @@ function animate() {
     render();
 }
 
-let ios = io.connect('http://127.0.0.1:3300');
 
-$('#container').on('mousedown',function(e){
-    // console.log(x, y, z,s);
-    $('#container').on('mousemove',function () {
-        ios.emit('sendMouseDown',{"msg":camera.position});
+
+    let acceptHttp = window.localStorage.getItem('acceptHttp');
+
+    let acceptSocket = io.connect(acceptHttp);
+
+    acceptSocket.on('connect',function(){
+        console.log('connect');
     })
-});
 
-$('#container').on('mouseup',function(e){
-    // console.log(x, y, z,s);
-    ios.emit('sendMouseUp',{"msg":camera.position});
-});
+    acceptSocket.on('sendMouseDown',function(data){
+        // console.log(data);
+        camera.position.x = data.msg.x;
+        camera.position.y = data.msg.y;
+        camera.position.z = data.msg.z;
+        camera.lookAt(new THREE.Vector3(0,0,0));
+    })
+    acceptSocket.on('sendMouseUp',function(data){
+        console.log('sendMouseUp',data);
+        camera.position.x = data.msg.x;
+        camera.position.y = data.msg.y;
+        camera.position.z = data.msg.z;
+        camera.lookAt(new THREE.Vector3(0,0,0));
+    })
+
+    acceptSocket.on('sendScrollModel',function(data){
+        console.log('sendScrollModel',data);
+        camera.position.x = data.msg.x;
+        camera.position.y = data.msg.y;
+        camera.position.z = data.msg.z;
+        camera.lookAt(new THREE.Vector3(0,0,0));
+    })
 
 
 

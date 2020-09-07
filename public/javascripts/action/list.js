@@ -13,3 +13,6 @@ $('.cptx_video_btn').on('click','img',function () {
     $('.cptx_video').show();
     $('#video')[0].play();
 });
+
+
+
